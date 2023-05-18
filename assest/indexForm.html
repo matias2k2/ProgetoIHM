@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./logo/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./logo/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./logo/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./logo/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./logo/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./logo/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./logo/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./logo/favicon-16x16.png">
+    <link rel="manifest" href="./logo/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>The last breee</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="./img/undraw_empty_cart_co35.svg" alt="">
+        </div>
+        <div class="from">
+            <form action="#">
+                <!--Nosso cabecalho do fromulario -->
+                 <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                         <button> <a href="./indexHome.html">Entra</a></button>
+                    </div>
+                 </div>
+
+                                     <!--Aria do nosso input de testes ETC-->
+                <div class="input-group">
+                    
+                    <div class="input-box">
+                         <label for="firstname">Primero nome</label>
+                         <input type="text" name="IDfirstname" id="IDfirstname" placeholder="Digite o seu primero nome" required>
+                    </div>
+                    <div class="input-box">
+                     <label for="lastname">Sobrenome</label>
+                     <input type="text" name="lastname" id="IDlastname" placeholder="Digite o seu sobre nome" required>
+                     </div>
+                     <div class="input-box">
+                         <label for="email">Email</label>
+                         <input type="email" name="email" id="IDemail" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                     <label for="telefone">  Telefone</label>
+                     <input type="tel" name="telefone" id="IDtelefone" placeholder="telefone" required>
+                     </div>
+                     <div class="input-box">
+                         <label for="password">Senha</label>
+                         <input type="password" name="senha" id="IDpassword" placeholder="Senha" required>
+                     </div>
+                     <div class="input-box">
+                         <label for="password">Confirme Senha</label>
+                         <input type="password" name="senha" id="IDpassword" placeholder="Confime Senha" required>
+                     </div>
+
+            </div>
+              <!--Fim Aria-->
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Genero</h6>
+                    </div>
+                    <!--Os generos estao armazenado aqui -->
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" name="genero" id="IDfemenino">
+                            <label for="femenino">Femenino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="genero" id="outros">
+                            <label for="outros">outros</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="genero" id="none">
+                            <label for="outros">Prefiro nao dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="./indexHome.html">Continuar</a></button>
+                </div>
+ 
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

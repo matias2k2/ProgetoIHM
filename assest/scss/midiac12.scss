@@ -1,0 +1,31 @@
+@media screen and (max-width:1330px) {
+    .form-image{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .from{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:1064px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll ;
+        flex-wrap: nowrap;
+        margin-right: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-input{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+}
