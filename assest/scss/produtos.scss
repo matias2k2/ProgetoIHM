@@ -1,0 +1,33 @@
+@import './reposivel.scss';
+.produtos{
+    margin:  0 auto;
+    padding: 10px;
+    .button{
+       .a{
+        text-decoration: none;
+                    color: $branco;
+       }
+    }
+    .produtos-container{
+        margin: 30px 0;
+
+        .produtos-itens{
+            color: #00001c;
+        h2{
+            font-size: 19px;
+        }
+        .produtos-stars{
+            font-size: 16px;
+            svg{
+                fill: $amarelo;
+            }
+        }
+        .produtos-prco{
+            font-size: 16px;
+        
+        }
+        
+        }
+        
+    }
+}

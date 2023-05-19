@@ -1,5 +1,14 @@
 @import './bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//configuracao
 @import './vaiavel.scss';
+@import './config.scss';
 
-//@import './formulario.scss';
+//componestes
+@import './header.scss';
+@import './nav-produtos.scss';
+@import './produtos.scss';
+@import './footer.scss';
+@import './breadcrumb.scss';
+
+@import './formulario.scss';
