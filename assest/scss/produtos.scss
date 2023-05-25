@@ -8,9 +8,17 @@
                     color: $branco;
        }
     }
+    p{
+        text-indent: 10px;
+         text-align: justify;
+    }
     .produtos-container{
         margin: 30px 0;
 
+        .img-fluid{
+            width: 297px;
+            height: 326.3px;
+        }
         .produtos-itens{
             color: #00001c;
         h2{
@@ -31,3 +39,4 @@
         
     }
 }
+/*img-fluid*/
